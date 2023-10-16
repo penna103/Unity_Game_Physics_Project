@@ -313,9 +313,10 @@ GameObject:
   - component: {fileID: 1940612322}
   - component: {fileID: 1940612321}
   - component: {fileID: 1940612320}
+  - component: {fileID: 1940612324}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Enemy
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -399,6 +400,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 5}
+--- !u!114 &1940612324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1940612319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85995ec9c4d814383851078e709fcff4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changeColor: 1
+  myColor: {r: 0.2901961, g: 0.5294118, b: 0.5568628, a: 0}
+  destroyEnemy: 0
+  destroyCollectibles: 0
+  pushPower: 2
+  collisionAudio: {fileID: 0}
 --- !u!1 &2018756365
 GameObject:
   m_ObjectHideFlags: 0
@@ -528,7 +547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   changeColor: 1
   myColor: {r: 0.8352942, g: 0.7686275, b: 0.42352945, a: 0}
-  destroyEnemy: 1
+  destroyEnemy: 0
   destroyCollectibles: 0
   pushPower: 2
   collisionAudio: {fileID: 8300000, guid: 804cf1904807b4d20b261dd93203c4da, type: 3}
