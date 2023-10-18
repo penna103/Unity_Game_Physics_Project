@@ -14893,17 +14893,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b53942fa2b8b746e2bfae7230b9740c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
-  anim: {fileID: 0}
-  runningSound: {fileID: 0}
+  controller: {fileID: 1273347332}
+  anim: {fileID: 1273347335}
+  runningSound: {fileID: 8300000, guid: 31f69a3c3e7d14e59ad372fb79c01d20, type: 3}
   playerOneControls: 1
-  playerTwoControls: 0
+  playerTwoControls: 1
   runningSpeed: 4
   gravity: 8
   freeRotation: 1
   freeRotationSpeed: 90
   running: 0
   moveDir: {x: 0, y: 0, z: 0}
+--- !u!95 &1273347335 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95782878299265946, guid: 84493eaa65d75074ca2c6e2d8a90ff9a, type: 3}
+  m_PrefabInstance: {fileID: 1974161987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1274121218
 PrefabInstance:
   m_ObjectHideFlags: 0
